@@ -18,7 +18,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://friend-xav2.onrender.com/", // Allow this origin
+    origin: "https://friend-xav2.onrender.com", // Allow this origin
     credentials: true, // Allow credentials (cookies, headers)
   })
 );
